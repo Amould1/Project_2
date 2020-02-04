@@ -1,0 +1,21 @@
+Drop table if exists "Data";
+CREATE TABLE "Data" (
+  "Country_Name" varchar(300),
+  "Country_Code" varchar(30),
+  "2010_Preparedness" numeric,
+  "2010_Stat_Capacity" numeric,
+  "2011_Preparedness" numeric,
+  "2011_Stat_Capacity" numeric,
+  "2012_Preparedness" numeric,
+  "2012_Stat_Capacity" numeric,
+  "2013_Preparedness" numeric,
+  "2013_Stat_Capacity" numeric,
+  "2014_Preparedness" numeric,
+  "2014_Stat_Capacity" numeric,
+  "2015_Preparedness" numeric,
+  "2015_Stat_Capacity" numeric,
+  "2016_Preparedness" numeric,
+  "2016_Stat_Capacity" numeric,
+  "2017_Preparedness" numeric,
+  "2017_Stat_Capacity" numeric
+);
